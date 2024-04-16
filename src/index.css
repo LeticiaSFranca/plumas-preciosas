@@ -1,0 +1,40 @@
+:root{
+  --cor-primaria: #8F5A37;
+  --cor-secundaria: #EB8B4C;
+  --cor-terciaria: #A87361;
+  --cor-quartenaria: #f3c49c;
+  --cor-branca: #FAF3ED;
+  --cor-preto: #000;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  ::selection {
+      background-color: var(--cor-primaria);
+      color: var(--cor-branca);
+  }
+}
+
+body {
+  background-color: var(--cor-branca);
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--cor-primaria);
+  width: 10px;
+}
