@@ -1,9 +1,11 @@
 import './App.css';
+import React from 'react';
+import { AppRoutes } from './routes';
 
 function App() {
   return (
     <>
-      <h2>Plumas Preciosas</h2>
+      <AppRoutes />
     </>
   );
 }
