@@ -4,8 +4,9 @@ header{
 	justify-content: space-evenly;
 	height: 80px;
 	padding: 0 2rem;
-	background-color: var(--cor-primaria);
+	background-color: transparent;
 	color: var(--cor-branca);
+	z-index: 5;
 }
 
 header .logo{
@@ -37,7 +38,7 @@ header .nav_btn{
 	background: transparent;
 	border: none;
 	outline: none;
-	color: var(--cor-primaria);
+	color: var(--cor-branca);
 	display: none;
 	font-size: 1.3rem;
 }
@@ -67,7 +68,7 @@ header div, nav {
 		align-items: center;
 		justify-content: center;
 		gap: 1.5rem;
-		background-color: var(--cor-quartenaria);
+		background-color: var(--cor-secundaria);
 		transition: 1s;
 		z-index: 1000;
 	}
