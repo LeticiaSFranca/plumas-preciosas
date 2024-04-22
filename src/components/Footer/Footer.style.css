@@ -6,10 +6,10 @@ footer{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    background-color: var(--cor-quartenaria);
+    background-color: var(--cor-secundaria);
     padding-top: 4vh;
     padding-bottom: 4vh;
-    color: var(--cor-primaria);
+    color: var(--cor-branca);
 
     font-size: 14px;
 }

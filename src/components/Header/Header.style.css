@@ -29,7 +29,7 @@ nav a{
 }
 
 nav a:hover{
-	border-bottom: 1px solid var(--cor-primaria);
+	border-bottom: 1px solid var(--cor-secundaria);
 }
 
 header .nav_btn{
