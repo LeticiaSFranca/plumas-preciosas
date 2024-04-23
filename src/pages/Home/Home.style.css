@@ -4,26 +4,26 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#primeira-apresentacao div {
+  }
+  
+  #primeira-apresentacao div {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-}
-
-#titulo-inicio {
+  }
+  
+  #titulo-inicio {
     font-size: 50px;
     margin-top: -15vh;
     text-align: center;
     font-weight: bolder;
     color: var(--cor-branca);
     text-shadow: 2px 2px 10px var(--cor-preta);
-}
-
-#nome-cacatua {
+  }
+  
+  #nome-cacatua {
     font-size: 30px;
     font-weight: bolder;
     font-style: italic;
@@ -31,15 +31,15 @@
     margin-top: -2vh;
     text-shadow: 2px 2px 10px var(--cor-preta);
     margin-bottom: 4vh;
-}
-
-#imagem-homepage {
+  }
+  
+  #imagem-homepage {
     width: 100%;
     margin-top: -20vh;
     filter: brightness(60%);
-}
-
-#botao-contato {
+  }
+  
+  #botao-contato {
     background: transparent;
     border-radius: 20px;
     font-size: 20px;
@@ -47,16 +47,16 @@
     padding: 1vh 3vw;
     color: var(--cor-branca);
     text-decoration: none;
-}
-
-#botao-contato:hover {
+  }
+  
+  #botao-contato:hover {
     background: var(--cor-branca);
     color: var(--cor-preta);
     transition: ease-in-out 0.5s;
     cursor: pointer;
-}
-
-@media (max-width: 1080px) {
+  }
+  
+  @media (max-width: 1080px) {
     #titulo-inicio {
         font-size: 17px;
         margin-top: -8vh;
@@ -66,13 +66,13 @@
         font-size: 17px;
         margin-top: 0.5px;
     }
-
+  
     #imagem-homepage {
         margin-top: -13vh;
         height: 35vh;
     }
-
+  
     #botao-contato {
         font-size: 11px;
     }
-}
+  }

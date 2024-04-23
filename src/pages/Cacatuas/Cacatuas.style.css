@@ -1,0 +1,64 @@
+#primeira-apresentacao {
+    z-index: -5;
+    position: relative  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #primeira-apresentacao div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #titulo-inicio-cacatuas {
+    font-size: 50px;
+    margin-top: -15vh;
+    margin-bottom: 4vh;
+    text-align: center;
+    font-weight: bolder;
+    color: var(--cor-branca);
+    text-shadow: 2px 2px 10px var(--cor-preta);
+  }
+  
+  #imagem-homepage {
+    width: 100%;
+    margin-top: -20vh;
+    filter: brightness(60%);
+  }
+  
+  #botao-contato-cacatuas {
+    background: transparent;
+    border-radius: 20px;
+    font-size: 20px;
+    border: solid 2px var(--cor-branca);
+    padding: 1vh 3vw;
+    color: var(--cor-branca);
+    text-decoration: none;
+  }
+  
+  #botao-contato:hover {
+    background: var(--cor-branca);
+    color: var(--cor-preta);
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 1080px) {
+    #titulo-inicio {
+        font-size: 17px;
+        margin-top: -8vh;
+    }
+  
+    #imagem-homepage {
+        margin-top: -13vh;
+        height: 35vh;
+    }
+  
+    #botao-contato {
+        font-size: 11px;
+    }
+  }
