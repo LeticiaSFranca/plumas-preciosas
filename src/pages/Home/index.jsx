@@ -39,7 +39,7 @@ export function Home() {
                 <h2>Projeto realizado pelas futuras veterinárias:</h2>
                 
                 <div id='todas-as-bonecas'>
-                    <img src={AnaBraga} alt="Ana Luiza" />
+                    <img src={AnaBraga} alt="Ana Luiza" /> //colocar imagem com nomes
                     <img src={Rayane} alt="Rayane" />
                     <img src={AnaBraga} alt="Letícia" />
                     <img src={Rayane} alt="Ana Santos" />
