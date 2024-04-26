@@ -1,0 +1,83 @@
+.card-cacatuas{
+    width: 20vw;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: transparent;
+    box-shadow: 5px 5px 20px var(--cor-primaria);
+}
+
+.card-cacatuas div{
+    background: transparent;
+    z-index: 1;
+    margin-top: -15vh;
+    text-align: left;
+    margin-left: 1vw;
+}
+
+#img-card-cacatuas {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.card-cacatuas h3 {
+    color: var(--cor-branca);
+    font-weight: bolder;
+}
+
+.card-cacatuas span{
+    font-size: 17px;
+    width: 100%;
+    margin-top: -5vh;
+    color: #ffffff96;
+}
+
+.card-cacatuas a:hover {
+    opacity: 90%;
+    cursor: pointer;
+    transition: ease 0.2s;
+}
+
+.card-cacatuas img{
+    width: 15vw;
+    object-fit: cover;
+    padding-bottom: 2vh;
+}
+
+.card-cacatuas hr{
+    color: var(--cor-branca);
+    margin: 0 5vw;
+    margin-bottom: 3vh;
+    opacity: .4;
+}
+
+@media (max-width: 1080px){
+    .card-cacatuas{
+        margin: 2vh 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 44vw;
+        height: 25vh;
+        font-size: 13px;
+    }
+
+    .card-cacatuas img{
+        width: 20vw;
+    }
+
+    .card-cacatuas hr{
+        margin-left: 11vw;
+        margin-right: 11vw;
+        margin-top: -0.5vh;
+        margin-bottom: 1vh;
+    }
+
+    h2 {
+        padding: 2vh 3vw;
+    }
+}

@@ -48,17 +48,17 @@
   }
   
   @media (max-width: 1080px) {
-    #titulo-inicio {
-        font-size: 17px;
+    #titulo-inicio-cacatuas {
+        font-size: 20px;
         margin-top: -8vh;
     }
   
     #imagem-homepage {
-        margin-top: -13vh;
+        margin-top: 2vh;
         height: 35vh;
     }
   
-    #botao-contato {
-        font-size: 11px;
+    #botao-contato-cacatuas {
+        font-size: 12px;
     }
   }
