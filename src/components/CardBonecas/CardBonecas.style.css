@@ -1,0 +1,24 @@
+.card-bonecas {
+    background: var(--cor-branca);
+    box-shadow: 2px 2px 5px var(--separar-paginas);
+    text-align: center;
+    margin-top: 5vh;
+}
+
+.card-bonecas h3 {
+    color: var(--cor-primaria);
+    font-weight: bolder;
+}
+
+.card-bonecas a {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+#img-card-bonecas {
+    width: 15vw;
+}
+
+@media (max-width: 1080px){
+
+}

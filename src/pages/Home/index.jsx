@@ -1,12 +1,16 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import React from 'react';
+import CardBonecas from '../../components/CardBonecas';
 import Cacatuas from '../../assets/img/CacatuasHomePage.png';
 import BotaoCacatua from '../../assets/img/botao-cacatua.png';
 import BotaoContato from '../../assets/img/botao-contato.png';
 
-import AnaBraga from '../../assets/img/bonecas/AnaBraga.png';
 import Rayane from '../../assets/img/bonecas/Rayane.png';
+import Leticia from '../../assets/img/bonecas/Leticia.png';
+import AnaSantos from '../../assets/img/bonecas/AnaSantos.png';
+import AnaLuiza from '../../assets/img/bonecas/AnaLuiza.png';
+import AnaBraga from '../../assets/img/bonecas/AnaBraga.png';
 import './Home.style.css';
 
 export function Home() {
@@ -39,11 +43,45 @@ export function Home() {
                 <h2>Projeto realizado pelas futuras veterinárias:</h2>
                 
                 <div id='todas-as-bonecas'>
-                    <img src={AnaBraga} alt="Ana Luiza" /> //colocar imagem com nomes
-                    <img src={Rayane} alt="Rayane" />
-                    <img src={AnaBraga} alt="Letícia" />
-                    <img src={Rayane} alt="Ana Santos" />
-                    <img src={AnaBraga} alt="Ana Braga" />
+                    <CardBonecas
+                    imagemBonecas={AnaLuiza}
+                    nomeBonecas='Ana Luiza'
+                    instagram='https://www.instagram.com/__.anallu/?hl=pt-br'
+                    nomeInstagram='Instagram'
+                    portfolio=''
+                    nomePortfolio='' />
+
+                    <CardBonecas
+                    imagemBonecas={Rayane}
+                    nomeBonecas='Rayane Amorim'
+                    instagram='https://www.instagram.com/rayane.ramorim/?hl=pt-br'
+                    nomeInstagram='Instagram'
+                    portfolio=''
+                    nomePortfolio='' />
+
+                    <CardBonecas
+                    imagemBonecas={Leticia}
+                    nomeBonecas='Letícia França'
+                    instagram='https://www.instagram.com/leticia.s.franca/?hl=pt-br'
+                    nomeInstagram='Instagram'
+                    portfolio='https://leticiafranca.com.br/'
+                    nomePortfolio='➡ Portfólio' />
+
+                    <CardBonecas
+                    imagemBonecas={AnaSantos}
+                    nomeBonecas='Ana Clara Santos'
+                    instagram='https://www.instagram.com/anasanttoss__/?hl=pt-br'
+                    nomeInstagram='Instagram'
+                    portfolio=''
+                    nomePortfolio='' />
+
+                    <CardBonecas
+                    imagemBonecas={AnaBraga}
+                    nomeBonecas='Ana Clara Braga'
+                    instagram='https://www.instagram.com/anabrag4/?hl=pt-br'
+                    nomeInstagram='Instagram'
+                    portfolio=''
+                    nomePortfolio='' />
                 </div>
             </section>
         </>

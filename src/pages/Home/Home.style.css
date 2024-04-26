@@ -56,6 +56,8 @@
     cursor: pointer;
   }
 
+   /* === Separação === */
+
   #segunda-apresentacao{
     width: 100%;
     display: flex;
@@ -90,29 +92,24 @@
     margin-right: 4vw;
   }
 
+  /* === Separação === */
+
   #terceira-apresentacao {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
-    margin-top: 5vh;
+    margin-top: 10vh;
   }
 
   #terceira-apresentacao h2 {
-    font-weight: bolder;
     color: var(--cor-secundaria);
-    font-size: 45px;
-    margin: 10vh 0;
-    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
   }
 
-  #terceira-apresentacao img {
-    width: 15vw;
-    margin-bottom: 5vh;
-  }
-
-  #terceira-apresentacao div {
+  #todas-as-bonecas {
     width: 100%;
     display: flex;
     align-items: center;
@@ -120,7 +117,7 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
-    
+
   @media (max-width: 1080px) {
     #primeira-apresentacao {
       margin-bottom: -5vh;
