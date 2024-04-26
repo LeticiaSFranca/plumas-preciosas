@@ -69,9 +69,10 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    border: solid 4px var(--cor-secundaria);
+    border: 0;
+    background: var(--cor-secundaria);
+    color: var(--cor-branca);
     border-radius: 10px;
-    color: var(--cor-secundaria);
     font-size: 30px;
     font-weight: bolder;
     text-decoration: none;
@@ -79,8 +80,7 @@
   } 
 
   .link-botoes-inicio:hover {
-    background: var(--cor-secundaria);
-    color: var(--cor-branca);
+    opacity: 80%;
     transition: ease-in-out 0.5s;
     cursor: pointer;
   }
@@ -89,7 +89,38 @@
     width: 10vw;
     margin-right: 4vw;
   }
-  
+
+  #terceira-apresentacao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 5vh;
+  }
+
+  #terceira-apresentacao h2 {
+    font-weight: bolder;
+    color: var(--cor-secundaria);
+    font-size: 45px;
+    margin: 10vh 0;
+    text-align: center;
+  }
+
+  #terceira-apresentacao img {
+    width: 15vw;
+    margin-bottom: 5vh;
+  }
+
+  #terceira-apresentacao div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+    
   @media (max-width: 1080px) {
     #primeira-apresentacao {
       margin-bottom: -5vh;
@@ -133,5 +164,15 @@
 
     .link-botoes-inicio img {
       width: 20vw;
+    }
+
+    #terceira-apresentacao h2 {
+      font-size: 30px;
+      margin: 4vh 0;
+      text-align: center;
+    }
+
+    #terceira-apresentacao img {
+      width: 40vw;
     }
   }

@@ -4,6 +4,9 @@ import React from 'react';
 import Cacatuas from '../../assets/img/CacatuasHomePage.png';
 import BotaoCacatua from '../../assets/img/botao-cacatua.png';
 import BotaoContato from '../../assets/img/botao-contato.png';
+
+import AnaBraga from '../../assets/img/bonecas/AnaBraga.png';
+import Rayane from '../../assets/img/bonecas/Rayane.png';
 import './Home.style.css';
 
 export function Home() {
@@ -33,7 +36,15 @@ export function Home() {
             </section>
 
             <section id="terceira-apresentacao">
+                <h2>Projeto realizado pelas futuras veterinárias:</h2>
                 
+                <div id='todas-as-bonecas'>
+                    <img src={AnaBraga} alt="Ana Luiza" />
+                    <img src={Rayane} alt="Rayane" />
+                    <img src={AnaBraga} alt="Letícia" />
+                    <img src={Rayane} alt="Ana Santos" />
+                    <img src={AnaBraga} alt="Ana Braga" />
+                </div>
             </section>
         </>
     );
