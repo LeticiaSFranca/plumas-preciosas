@@ -8,7 +8,6 @@ function CardCacatuas({ imagemCacatuas, nomeCacatuas, sexoCacatuas }) {
                 <img src={imagemCacatuas} id="img-card-cacatuas" alt={nomeCacatuas} />
                 <div>
                     <h3>{nomeCacatuas}</h3>
-                    <hr />
                     <span>{sexoCacatuas}</span>
                 </div>
             </div>

@@ -46,6 +46,23 @@
     transition: ease-in-out 0.5s;
     cursor: pointer;
   }
+
+  #titulo-conheca-cacatuas {
+    margin-top: 5vh;
+    font-size: 40px;
+    color: var(--cor-secundaria);
+    font-weight: 900;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+
+#segunda-apresentacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
   
   @media (max-width: 1080px) {
     #titulo-inicio-cacatuas {
@@ -60,5 +77,10 @@
   
     #botao-contato-cacatuas {
         font-size: 12px;
+    }
+
+    #titulo-conheca-cacatuas {
+      margin-top: 2vh;
+      font-size: 20px;
     }
   }

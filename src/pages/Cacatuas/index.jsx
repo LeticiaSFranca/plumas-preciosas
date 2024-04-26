@@ -33,6 +33,8 @@ export function Cacatuas() {
                 </div>
         </section>
 
+        <h2 id='titulo-conheca-cacatuas'>Conheça nossas Cacatuas!</h2>
+
         <section id='segunda-apresentacao'>
             <CardCacatuas
             imagemCacatuas={Cacatua1}
@@ -41,17 +43,17 @@ export function Cacatuas() {
 
             <CardCacatuas
             imagemCacatuas={Cacatua2}
-            nomeCacatuas='Lily'
+            nomeCacatuas='Joana'
             sexoCacatuas='Fêmea' />
 
             <CardCacatuas
             imagemCacatuas={Cacatua3}
-            nomeCacatuas='Lily'
+            nomeCacatuas='Cátia'
             sexoCacatuas='Fêmea' />
 
             <CardCacatuas
             imagemCacatuas={Cacatua4}
-            nomeCacatuas='Lily'
+            nomeCacatuas='Cíntia'
             sexoCacatuas='Fêmea' />
 
             {/* === Separação === */}
@@ -63,61 +65,61 @@ export function Cacatuas() {
 
             <CardCacatuas
             imagemCacatuas={Cacatua6}
-            nomeCacatuas='Loro'
+            nomeCacatuas='Péricles'
             sexoCacatuas='Macho' />
 
             <CardCacatuas
             imagemCacatuas={Cacatua7}
-            nomeCacatuas='Loro'
+            nomeCacatuas='Teco'
             sexoCacatuas='Macho' />
 
             <CardCacatuas
             imagemCacatuas={Cacatua8}
-            nomeCacatuas='Loro'
+            nomeCacatuas='Pedro'
             sexoCacatuas='Macho' />
 
             {/* === Separação === */}
 
             <CardCacatuas
             imagemCacatuas={Cacatua9}
-            nomeCacatuas='Lily'
+            nomeCacatuas='Íris'
             sexoCacatuas='Fêmea' />
 
             <CardCacatuas
             imagemCacatuas={Cacatua10}
-            nomeCacatuas='Lily'
+            nomeCacatuas='Flor'
             sexoCacatuas='Fêmea' />
 
             <CardCacatuas
             imagemCacatuas={Cacatua11}
-            nomeCacatuas='Lily'
+            nomeCacatuas='Luna'
             sexoCacatuas='Fêmea' />
 
             <CardCacatuas
             imagemCacatuas={Cacatua12}
-            nomeCacatuas='Lily'
+            nomeCacatuas='Gigi'
             sexoCacatuas='Fêmea' />
 
             {/* === Separação === */}
 
             <CardCacatuas
             imagemCacatuas={Cacatua13}
-            nomeCacatuas='Loro'
+            nomeCacatuas='Zeus'
             sexoCacatuas='Macho' />
 
             <CardCacatuas
             imagemCacatuas={Cacatua14}
-            nomeCacatuas='Loro'
+            nomeCacatuas='Tinoco'
             sexoCacatuas='Macho' />
 
             <CardCacatuas
             imagemCacatuas={Cacatua15}
-            nomeCacatuas='Loro'
+            nomeCacatuas='Apollo'
             sexoCacatuas='Macho' />
 
             <CardCacatuas
             imagemCacatuas={Cacatua16}
-            nomeCacatuas='Loro'
+            nomeCacatuas='Zeca'
             sexoCacatuas='Macho' />
         </section>
     </>
