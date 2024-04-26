@@ -91,6 +91,10 @@
   }
   
   @media (max-width: 1080px) {
+    #primeira-apresentacao {
+      margin-bottom: -5vh;
+    }
+
     #titulo-inicio {
         font-size: 17px;
         margin-top: -8vh;
@@ -108,5 +112,26 @@
   
     #botao-contato {
         font-size: 11px;
+    }
+    
+    #segunda-apresentacao {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+    .link-botoes-inicio {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      border: solid 3px var(--cor-secundaria);
+      font-size: 20px;
+      width: 95vw;
+      margin-top: 2vh;
+    } 
+
+    .link-botoes-inicio img {
+      width: 20vw;
     }
   }
