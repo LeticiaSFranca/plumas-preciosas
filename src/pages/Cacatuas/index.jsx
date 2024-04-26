@@ -60,7 +60,7 @@ export function Cacatuas() {
 
             <CardCacatuas
             imagemCacatuas={Cacatua5}
-            nomeCacatuas='Loro'
+            nomeCacatuas='Atlas'
             sexoCacatuas='Macho' />
 
             <CardCacatuas
@@ -122,6 +122,10 @@ export function Cacatuas() {
             nomeCacatuas='Zeca'
             sexoCacatuas='Macho' />
         </section>
+
+        <Link to='/contato' id='botao-adquirir'>
+          Quero adquirir uma
+        </Link>
     </>
   );
 }

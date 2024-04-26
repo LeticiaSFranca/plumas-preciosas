@@ -63,6 +63,22 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+
+#botao-adquirir {
+  padding: 1vh 2vw;
+  font-size: 20px;
+  background: var(--cor-secundaria);
+  color: var(--cor-branca);
+  text-decoration: none;
+  margin-top: 4vh;
+  border-radius: 6px;
+}
+
+#botao-adquirir:hover {
+  opacity: 80%;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
   
   @media (max-width: 1080px) {
     #titulo-inicio-cacatuas {
