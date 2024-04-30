@@ -118,6 +118,19 @@
     flex-wrap: wrap;
   }
 
+  #quarta-apresentacao {
+    padding: 0 15vw;
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+  }
+
+  #quarta-apresentacao h2 {
+    font-weight: bolder;
+    color: var(--cor-secundaria);
+    margin-bottom: 3vh;
+  }
+
+
   @media (max-width: 1080px) {
     #primeira-apresentacao {
       margin-bottom: -5vh;
@@ -171,5 +184,9 @@
 
     #terceira-apresentacao img {
       width: 40vw;
+    }
+
+    #quarta-apresentacao {
+      padding: 0 7vw;
     }
   }

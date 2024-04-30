@@ -39,6 +39,31 @@ export function Home() {
                     Entrar em Contato</Link>
             </section>
 
+            <section id="quarta-apresentacao">
+                <h2>Sobre Nós</h2>
+                <p>Somos um criatório comercial dedicado à criação e comércio de <b>Cacatuas
+                galerita</b>. Com muita dedicação em prol da conservação e cuidado animal, nossa
+                missão é proporcionar ambientes seguros e aconchegantes para nossas cacatuas,
+                enquanto promovemos a conscientização sobre sua importância e cuidados com a
+                espécie. <br /><br />
+
+                Nosso compromisso com a excelência se reflete em cada detalhe do nosso criatório,
+                desde a seleção minuciosa dos nossos reprodutores até o acompanhamento
+                dedicado a cada ninhada. Nossas aves são criadas com os mais altos padrões de
+                bem-estar físico e emocional. <br /><br />
+
+                Além de oferecermos Cacatuas galerita de linhagens respeitadas e saudáveis,
+                também fornecemos suporte contínuo aos nossos clientes, orientando-os sobre
+                todos os tipos de cuidados adequados e diversas maneiras de enriquecimento
+                ambiental para que a sua ave tenha uma vida próspera e feliz. <br /><br />
+
+                Explore em nosso site para descobrir mais sobre nossas incríveis Cacatuas galerita
+                e como você pode fazer parte da nossa história em busca da conservação e
+                apreciação dessa espécie extraordinária. <br /><br />
+                Seja bem-vindo(a) ao nosso mundo, onde o nosso amor pelas aves é nossa maior
+                inspiração.</p>
+            </section>
+
             <section id="terceira-apresentacao">
                 <h2>Projeto realizado pelas futuras veterinárias:</h2>
                 
