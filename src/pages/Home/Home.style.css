@@ -132,10 +132,6 @@
 
 
   @media (max-width: 1080px) {
-    #primeira-apresentacao {
-      margin-bottom: -5vh;
-    }
-
     #titulo-inicio {
         font-size: 17px;
         margin-top: -8vh;
@@ -160,6 +156,8 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
+      margin-bottom: -4vh;
+      margin-top: 2vh;
     }
 
     .link-botoes-inicio {
@@ -178,7 +176,7 @@
 
     #terceira-apresentacao h2 {
       font-size: 30px;
-      margin: 4vh 0;
+      margin-top: -4vh;
       text-align: center;
     }
 
