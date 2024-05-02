@@ -2,7 +2,7 @@
     width: 100%;
     margin-top: -20vh;
     z-index: -2;
-    height: 140vh;
+    height: 145vh;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -12,6 +12,7 @@
 
 /* Formulário */
 .formularioContato { 
+    margin-top: 20vh;
     max-width: 700px; 
     height:auto; 
     padding: 20px 20px; 
