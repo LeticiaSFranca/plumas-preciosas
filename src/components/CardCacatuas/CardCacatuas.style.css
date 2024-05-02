@@ -53,14 +53,14 @@
         margin: 2vh 0;
         display: flex;
         align-items: center;
-        justify-content: center;
-        width: 44vw;
-        height: 25vh;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 35vw;
         font-size: 13px;
     }
 
     .card-cacatuas img{
-        width: 20vw;
+        width: 100%;
     }
 
     .card-cacatuas hr{

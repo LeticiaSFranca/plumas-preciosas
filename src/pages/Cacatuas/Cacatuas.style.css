@@ -47,8 +47,8 @@
     cursor: pointer;
   }
 
-  #titulo-conheca-cacatuas {
-    margin-top: 5vh;
+  #titulo-conheca-cacatuas { 
+    margin-top: 6vh;
     font-size: 40px;
     color: var(--cor-secundaria);
     font-weight: 900;
@@ -57,6 +57,7 @@
   }
 
 #segunda-apresentacao {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -83,7 +84,8 @@
   @media (max-width: 1080px) {
     #titulo-inicio-cacatuas {
         font-size: 20px;
-        margin-top: -8vh;
+        margin-top: -7vh;
+        margin-bottom: 2vh;
     }
   
     #imagem-homepage {
@@ -96,7 +98,7 @@
     }
 
     #titulo-conheca-cacatuas {
-      margin-top: 2vh;
+      margin-top: 4vh;
       font-size: 20px;
     }
   }
