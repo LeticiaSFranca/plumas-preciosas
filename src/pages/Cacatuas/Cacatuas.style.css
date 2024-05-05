@@ -1,5 +1,4 @@
 #primeira-apresentacao {
-    z-index: -5;
     position: relative  ;
     display: flex;
     align-items: center;
@@ -30,7 +29,7 @@
     filter: brightness(60%);
   }
   
-  #botao-contato-cacatuas {
+  #botao-contato {
     background: transparent;
     border-radius: 20px;
     font-size: 20px;

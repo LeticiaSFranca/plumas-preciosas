@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Header.style.css';
 import logo from '../../assets/favicon.png';
 import { Link } from 'react-router-dom';
@@ -7,6 +7,7 @@ import { GrAppsRounded } from 'react-icons/gr';
 
 export function Header() {
     const navRef = useRef(null);
+    const [scrolled, setScrolled] = useState(false);
 
     const showNavbar = () => {
         if (navRef.current) {
@@ -14,8 +15,23 @@ export function Header() {
         }   
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const isScrolled = window.scrollY > 50;
+            if (isScrolled !== scrolled) {
+                setScrolled(isScrolled);
+            }
+        };
+        
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, [scrolled]);
+
     return (
-        <header>
+        <header className={scrolled ? 'scrolled' : ''}>
             <Link to="/" className="logo" onClick={showNavbar}>
                 <img src={logo} alt="Logo" />
             </Link>

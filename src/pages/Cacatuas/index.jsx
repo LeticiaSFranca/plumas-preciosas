@@ -29,7 +29,7 @@ export function Cacatuas() {
 
                 <div>
                     <h1 id='titulo-inicio-cacatuas'>Cacatuas galerita</h1>
-                    <Link to="/contato" id='botao-contato-cacatuas'>Quero adquirir uma</Link>
+                    <Link to="/contato" id='botao-contato'>Quero adquirir uma</Link>
                 </div>
         </section>
 

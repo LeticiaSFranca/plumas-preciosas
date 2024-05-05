@@ -7,6 +7,13 @@ header{
 	background-color: transparent;
 	color: var(--cor-branca);
 	z-index: 10;
+	position: sticky;
+	top: 0;
+	left: 0;
+}
+
+header.scrolled{
+	background-color: var(--cor-secundaria);
 }
 
 header .logo{
