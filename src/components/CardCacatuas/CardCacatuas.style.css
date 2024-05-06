@@ -55,7 +55,7 @@
         align-items: center;
         justify-content: space-evenly;
         flex-wrap: wrap;
-        width: 35vw;
+        width: 25vw;
         font-size: 13px;
     }
 
@@ -74,5 +74,11 @@
         margin-top: -10vh;
         text-align: center;
         padding: 0;
+    }
+}
+
+@media (max-width: 620px) {
+    .card-cacatuas{
+        width: 30vw;
     }
 }
