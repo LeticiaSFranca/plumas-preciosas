@@ -57,11 +57,8 @@
 
 #segunda-apresentacao {
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 #botao-adquirir {
@@ -79,8 +76,8 @@
   cursor: pointer;
   transition: ease-in-out 0.5s;
 }
-  
-  @media (max-width: 1080px) {
+
+@media (max-width: 1080px) {
     #titulo-inicio-cacatuas {
         font-size: 20px;
         margin-top: -7vh;
@@ -100,4 +97,14 @@
       margin-top: 4vh;
       font-size: 20px;
     }
+
+    #segunda-apresentacao{
+      grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 620px) {
+  #segunda-apresentacao{
+    grid-template-columns: 1fr;
   }
+}

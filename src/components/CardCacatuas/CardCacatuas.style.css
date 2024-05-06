@@ -1,5 +1,5 @@
 .card-cacatuas{
-    margin-top: 4vh;
+    margin: 4vh auto 0 auto;
     width: 20vw;
     text-align: left;
     display: flex;
@@ -50,7 +50,7 @@
 
 @media (max-width: 1080px){
     .card-cacatuas{
-        margin: 2vh 0;
+        margin: 2vh auto 2vh auto;
         display: flex;
         align-items: center;
         justify-content: space-evenly;

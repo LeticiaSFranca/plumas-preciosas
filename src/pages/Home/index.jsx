@@ -30,7 +30,7 @@ export function Home() {
                 </div>
             </section>
 
-            <section id='segunda-apresentacao'>
+            <section id='botoes-home'>
                 <Link to='/cacatuas' className='link-botoes-inicio'>
                     <img src={BotaoCacatua} alt="Filhote de Cacatua" />
                     Conhecer Cacatuas</Link>
