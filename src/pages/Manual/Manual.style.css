@@ -1,0 +1,142 @@
+#imagem-manualpage {
+    width: 100%;
+    margin-top: -30vh;
+    filter: brightness(60%);
+}
+
+i {
+    font-style: italic;
+}
+
+#segunda-apresentacao {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8vh;
+    text-align: center;
+}
+
+#segunda-apresentacao h2 {
+    color: var(--cor-terciaria);
+    font-weight: bolder;
+}
+
+#segunda-apresentacao p {
+    margin: 4vh 25vw;
+    text-align: center;
+}
+
+#btn-contato {
+    border: 0;
+    border-radius: 10px;
+    background-color: var(--cor-terciaria);
+    color: var(--cor-branca);
+    padding: 1vh 2vw;
+    margin-bottom: 7vh;
+    text-decoration: none;
+}
+
+#btn-contato:hover {
+    opacity: 80%;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+#terceira-apresentacao {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+#terceira-apresentacao h2{
+    color: var(--cor-terciaria);
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 1vh 0;
+}   
+
+#terceira-apresentacao p {
+    margin: 3vh 10vw;
+    text-align: start;   
+}
+
+#terceira-apresentacao h3{
+    color: var(--cor-terciaria);
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 4vh 0;
+}
+
+#quarta-apresentacao {
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#quarta-apresentacao p {
+    width: 40vw;
+}
+
+#quarta-apresentacao b {
+    font-weight: bolder;
+}
+
+#cacatua-manejo {
+    width: 20vw;
+    border-radius: 15px;
+}
+
+@media (max-width: 1080px){
+ #primeira-apresentacao{
+    margin-top: 15vh;
+ }
+ 
+ #segunda-apresentacao {
+    margin-top: 2vh;
+ }
+
+ #segunda-apresentacao h2 {
+    font-size: 16px;
+ }
+
+ #segunda-apresentacao h3 {
+    font-size: 14px;
+ }
+
+ #segunda-apresentacao p {
+    width: 90vw;
+    text-align: start;
+ }
+
+ #terceira-apresentacao p {
+    margin: 3vh 5vw;
+    text-align: start;   
+}
+
+#terceira-apresentacao h3 {
+    font-size: 16px;
+}
+
+#quarta-apresentacao {
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#quarta-apresentacao p {
+    width: 90vw;
+}
+
+#cacatua-manejo {
+    width: 50vw;
+    margin-top: 0;
+    margin-bottom: 5vh;
+}
+}
