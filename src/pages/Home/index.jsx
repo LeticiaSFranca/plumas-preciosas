@@ -68,13 +68,13 @@ export function Home() {
                 <h2>Projeto realizado pelas futuras veterinárias:</h2>
                 
                 <div id='todas-as-bonecas'>
-                    {/* <CardBonecas
+                    <CardBonecas
                     imagemBonecas={AnaLuiza}
                     nomeBonecas='Ana Luiza'
                     instagram='https://www.instagram.com/__.anallu/?hl=pt-br'
                     nomeInstagram='Instagram'
                     portfolio=''
-                    nomePortfolio='' /> */}
+                    nomePortfolio='' />
 
                     <CardBonecas
                     imagemBonecas={Rayane}

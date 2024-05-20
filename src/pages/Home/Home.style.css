@@ -105,6 +105,7 @@
   #apresentacao-bonecas h2 {
     color: var(--cor-secundaria);
     font-weight: bolder;
+    text-align: center;
     font-size: 40px;
   }
 
@@ -174,17 +175,17 @@
       width: 20vw;
     }
 
-    #terceira-apresentacao h2 {
+    #apresentacao-bonecas h2 {
       font-size: 30px;
       margin-top: -4vh;
       text-align: center;
     }
 
-    #terceira-apresentacao img {
+    #apresentacao-bonecas img {
       width: 40vw;
     }
 
-    #quarta-apresentacao {
+    #apresentacao-sobre-nos {
       padding: 0 7vw;
     }
   }
