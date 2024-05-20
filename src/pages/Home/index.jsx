@@ -39,7 +39,7 @@ export function Home() {
                     Entrar em Contato</Link>
             </section>
 
-            <section id="quarta-apresentacao">
+            <section id="apresentacao-sobre-nos">
                 <h2>Sobre Nós</h2>
                 <p>Somos um criatório comercial dedicado à criação e comércio de <b>Cacatuas
                 galerita</b>. Com muita dedicação em prol da conservação e cuidado animal, nossa
@@ -64,17 +64,17 @@ export function Home() {
                 inspiração.</p>
             </section>
 
-            <section id="terceira-apresentacao">
+            <section id="apresentacao-bonecas">
                 <h2>Projeto realizado pelas futuras veterinárias:</h2>
                 
                 <div id='todas-as-bonecas'>
-                    <CardBonecas
+                    {/* <CardBonecas
                     imagemBonecas={AnaLuiza}
                     nomeBonecas='Ana Luiza'
                     instagram='https://www.instagram.com/__.anallu/?hl=pt-br'
                     nomeInstagram='Instagram'
                     portfolio=''
-                    nomePortfolio='' />
+                    nomePortfolio='' /> */}
 
                     <CardBonecas
                     imagemBonecas={Rayane}

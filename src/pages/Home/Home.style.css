@@ -74,7 +74,7 @@
     background: var(--cor-secundaria);
     color: var(--cor-branca);
     border-radius: 10px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bolder;
     text-decoration: none;
     padding: 1vw 4vw;
@@ -87,13 +87,13 @@
   }
 
   .link-botoes-inicio img {
-    width: 10vw;
+    width: 6vw;
     margin-right: 4vw;
   }
 
   /* === Separação === */
 
-  #terceira-apresentacao {
+  #apresentacao-bonecas {
     width: 100%;
     display: flex;
     align-items: center;
@@ -102,7 +102,7 @@
     margin-top: 10vh;
   }
 
-  #terceira-apresentacao h2 {
+  #apresentacao-bonecas h2 {
     color: var(--cor-secundaria);
     font-weight: bolder;
     font-size: 40px;
@@ -115,15 +115,16 @@
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 1vh;
   }
 
-  #quarta-apresentacao {
+  #apresentacao-sobre-nos {
     padding: 0 15vw;
     margin-top: 10vh;
-    margin-bottom: 3vh;
+    margin-bottom: 5vh;
   }
 
-  #quarta-apresentacao h2 {
+  #apresentacao-sobre-nos h2 {
     font-weight: bolder;
     color: var(--cor-secundaria);
     margin-bottom: 3vh;
