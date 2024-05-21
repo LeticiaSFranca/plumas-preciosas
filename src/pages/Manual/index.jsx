@@ -16,7 +16,7 @@ export function Manual() {
                 <img src={CacatuasManual} alt="Cacatua" id='imagem-manualpage' />
             </section>
 
-            <section id="segunda-apresentacao">
+            <section id="segunda-apresentacao-manual">
                 <h2>Manual de orientações básicas para criação</h2>
                 <h3>Cacatua-da-crista-amarela ( <i>Cacatua galerita</i> )</h3>
 

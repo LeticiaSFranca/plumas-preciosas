@@ -8,7 +8,7 @@ i {
     font-style: italic;
 }
 
-#segunda-apresentacao {
+#segunda-apresentacao-manual {
     width: 100%;
     display: flex;
     align-items: center;
@@ -18,12 +18,12 @@ i {
     text-align: center;
 }
 
-#segunda-apresentacao h2 {
+#segunda-apresentacao-manual h2 {
     color: var(--cor-terciaria);
     font-weight: bolder;
 }
 
-#segunda-apresentacao p {
+#segunda-apresentacao-manual p {
     margin: 4vh 25vw;
     text-align: center;
 }
@@ -95,19 +95,19 @@ i {
     margin-top: 15vh;
  }
  
- #segunda-apresentacao {
+ #segunda-apresentacao-manual {
     margin-top: 2vh;
  }
 
- #segunda-apresentacao h2 {
+ #segunda-apresentacao-manual h2 {
     font-size: 16px;
  }
 
- #segunda-apresentacao h3 {
+ #segunda-apresentacao-manual h3 {
     font-size: 14px;
  }
 
- #segunda-apresentacao p {
+ #segunda-apresentacao-manual p {
     width: 90vw;
     text-align: start;
  }
