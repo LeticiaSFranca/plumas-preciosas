@@ -1,28 +1,28 @@
 #primeira-apresentacao {
-    position: relative  ;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  #primeira-apresentacao div {
+}
+
+#primeira-apresentacao div {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
-  #titulo-inicio {
+}
+
+#titulo-inicio {
     font-size: 50px;
     margin-top: -15vh;
     text-align: center;
     font-weight: bolder;
     color: var(--cor-branca);
     text-shadow: 2px 2px 10px var(--cor-preta);
-  }
-  
-  #nome-cacatua {
+}
+
+#nome-cacatua {
     font-size: 30px;
     font-weight: bolder;
     font-style: italic;
@@ -30,15 +30,15 @@
     margin-top: -2vh;
     text-shadow: 2px 2px 10px var(--cor-preta);
     margin-bottom: 4vh;
-  }
-  
-  #imagem-homepage {
+}
+
+#imagem-homepage {
     width: 100%;
     margin-top: -20vh;
     filter: brightness(60%);
-  }
-  
-  #botao-contato {
+}
+
+#botao-contato {
     background: transparent;
     border-radius: 20px;
     font-size: 20px;
@@ -46,27 +46,27 @@
     padding: 1vh 3vw;
     color: var(--cor-branca);
     text-decoration: none;
-  }
-  
-  #botao-contato:hover {
+}
+
+#botao-contato:hover {
     background: var(--cor-branca);
     color: var(--cor-preta);
     transition: ease-in-out 0.5s;
     cursor: pointer;
-  }
+}
 
-   /* === Separação === */
+/* === Separação === */
 
-  #botoes-home{
+#botoes-home {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: row;
     margin-top: 5vh;
-  }
+}
 
-  .link-botoes-inicio {
+.link-botoes-inicio {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -78,38 +78,38 @@
     font-weight: bolder;
     text-decoration: none;
     padding: 1vw 4vw;
-  } 
+}
 
-  .link-botoes-inicio:hover {
+.link-botoes-inicio:hover {
     opacity: 80%;
     transition: ease-in-out 0.5s;
     cursor: pointer;
-  }
+}
 
-  .link-botoes-inicio img {
+.link-botoes-inicio img {
     width: 6vw;
     margin-right: 4vw;
-  }
+}
 
-  /* === Separação === */
+/* === Separação === */
 
-  #apresentacao-bonecas {
+#apresentacao-bonecas {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
     margin-top: 10vh;
-  }
+}
 
-  #apresentacao-bonecas h2 {
+#apresentacao-bonecas h2 {
     color: var(--cor-secundaria);
     font-weight: bolder;
     text-align: center;
     font-size: 40px;
-  }
+}
 
-  #todas-as-bonecas {
+#todas-as-bonecas {
     width: 100%;
     display: flex;
     align-items: center;
@@ -117,75 +117,74 @@
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 1vh;
-  }
+}
 
-  #apresentacao-sobre-nos {
+#apresentacao-sobre-nos {
     padding: 0 15vw;
     margin-top: 10vh;
     margin-bottom: 5vh;
-  }
+}
 
-  #apresentacao-sobre-nos h2 {
+#apresentacao-sobre-nos h2 {
     font-weight: bolder;
     color: var(--cor-secundaria);
     margin-bottom: 3vh;
-  }
+}
 
-
-  @media (max-width: 1080px) {
+@media (max-width: 1080px) {
     #titulo-inicio {
         font-size: 17px;
         margin-top: -8vh;
     }
-    
+
     #nome-cacatua {
         font-size: 17px;
         margin-top: 0.5px;
     }
-  
+
     #imagem-homepage {
         margin-top: -13vh;
         height: 35vh;
     }
-  
+
     #botao-contato {
         font-size: 11px;
     }
-    
+
     #botoes-home {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      margin-bottom: -4vh;
-      margin-top: 2vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: -4vh;
+        margin-top: 2vh;
     }
 
     .link-botoes-inicio {
-      display: flex;
-      align-items: center;
-      justify-content: space-evenly;
-      border: solid 3px var(--cor-secundaria);
-      font-size: 20px;
-      width: 95vw;
-      margin-top: 2vh;
-    } 
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: solid 3px var(--cor-secundaria);
+        font-size: 20px;
+        width: 95vw;
+        margin-top: 2vh;
+    }
 
     .link-botoes-inicio img {
-      width: 20vw;
+        width: 20vw;
     }
 
     #apresentacao-bonecas h2 {
-      font-size: 30px;
-      margin-top: -4vh;
-      text-align: center;
+        font-size: 30px;
+        margin-top: -4vh;
+        text-align: center;
     }
 
     #apresentacao-bonecas img {
-      width: 40vw;
+        width: 40vw;
     }
 
     #apresentacao-sobre-nos {
-      padding: 0 7vw;
+        padding: 0 7vw;
     }
-  }
+}

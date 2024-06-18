@@ -1,19 +1,19 @@
 #primeira-apresentacao {
-    position: relative  ;
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  #primeira-apresentacao div {
+}
+
+#primeira-apresentacao div {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
-  #titulo-inicio-cacatuas {
+}
+
+#titulo-inicio-cacatuas {
     font-size: 50px;
     margin-top: -15vh;
     margin-bottom: 4vh;
@@ -21,15 +21,15 @@
     font-weight: bolder;
     color: var(--cor-branca);
     text-shadow: 2px 2px 10px var(--cor-preta);
-  }
-  
-  #imagem-homepage {
+}
+
+#imagem-homepage {
     width: 100%;
     margin-top: -20vh;
     filter: brightness(60%);
-  }
-  
-  #botao-contato {
+}
+
+#botao-contato {
     background: transparent;
     border-radius: 20px;
     font-size: 20px;
@@ -37,44 +37,44 @@
     padding: 1vh 3vw;
     color: var(--cor-branca);
     text-decoration: none;
-  }
-  
-  #botao-contato:hover {
+}
+
+#botao-contato:hover {
     background: var(--cor-branca);
     color: var(--cor-preta);
     transition: ease-in-out 0.5s;
     cursor: pointer;
-  }
+}
 
-  #titulo-conheca-cacatuas { 
+#titulo-conheca-cacatuas {
     margin-top: 6vh;
     font-size: 40px;
     color: var(--cor-secundaria);
     font-weight: 900;
     letter-spacing: 1px;
     text-align: center;
-  }
+}
 
 #segunda-apresentacao {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 #botao-adquirir {
-  padding: 1vh 2vw;
-  font-size: 20px;
-  background: var(--cor-secundaria);
-  color: var(--cor-branca);
-  text-decoration: none;
-  margin-top: 4vh;
-  border-radius: 6px;
+    padding: 1vh 2vw;
+    font-size: 20px;
+    background: var(--cor-secundaria);
+    color: var(--cor-branca);
+    text-decoration: none;
+    margin-top: 4vh;
+    border-radius: 6px;
 }
 
 #botao-adquirir:hover {
-  opacity: 80%;
-  cursor: pointer;
-  transition: ease-in-out 0.5s;
+    opacity: 80%;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
 }
 
 @media (max-width: 1080px) {
@@ -83,28 +83,28 @@
         margin-top: -7vh;
         margin-bottom: 2vh;
     }
-  
+
     #imagem-homepage {
         margin-top: 2vh;
         height: 35vh;
     }
-  
+
     #botao-contato-cacatuas {
         font-size: 12px;
     }
 
     #titulo-conheca-cacatuas {
-      margin-top: 4vh;
-      font-size: 20px;
+        margin-top: 4vh;
+        font-size: 20px;
     }
 
-    #segunda-apresentacao{
-      grid-template-columns: repeat(3, 1fr);
+    #segunda-apresentacao {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 620px) {
-  #segunda-apresentacao{
-    grid-template-columns: repeat(2, 1fr);
-  }
+    #segunda-apresentacao {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

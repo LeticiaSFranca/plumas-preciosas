@@ -3,15 +3,19 @@ import './CardCacatuas.style.css';
 
 function CardCacatuas({ imagemCacatuas, nomeCacatuas, sexoCacatuas }) {
     return (
-       <>
-            <div className='card-cacatuas'>
-                <img src={imagemCacatuas} id="img-card-cacatuas" alt={nomeCacatuas} />
+        <>
+            <div className="card-cacatuas">
+                <img
+                    src={imagemCacatuas}
+                    id="img-card-cacatuas"
+                    alt={nomeCacatuas}
+                />
                 <div>
                     <h3>{nomeCacatuas}</h3>
                     <span>{sexoCacatuas}</span>
                 </div>
             </div>
-       </>
+        </>
     );
 }
 

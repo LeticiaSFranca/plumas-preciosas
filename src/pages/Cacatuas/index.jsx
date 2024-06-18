@@ -22,110 +22,128 @@ import CardCacatuas from '../../components/CardCacatuas';
 import React from 'react';
 
 export function Cacatuas() {
-  return (
-    <>
-        <section id='primeira-apresentacao'>
-                <img src={Cacatua} alt="Cacatua" id='imagem-homepage' />
+    return (
+        <>
+            <section id="primeira-apresentacao">
+                <img src={Cacatua} alt="Cacatua" id="imagem-homepage" />
 
                 <div>
-                    <h1 id='titulo-inicio-cacatuas'>Cacatuas galerita</h1>
-                    <Link to="/contato" id='botao-contato'>Quero adquirir uma</Link>
+                    <h1 id="titulo-inicio-cacatuas">Cacatuas galerita</h1>
+                    <Link to="/contato" id="botao-contato">
+                        Quero adquirir uma
+                    </Link>
                 </div>
-        </section>
+            </section>
 
-        <h2 id='titulo-conheca-cacatuas'>Conheça nossas Cacatuas!</h2>
+            <h2 id="titulo-conheca-cacatuas">Conheça nossas Cacatuas!</h2>
 
-        <section id='segunda-apresentacao'>
-            <CardCacatuas
-            imagemCacatuas={Cacatua1}
-            nomeCacatuas='Lily'
-            sexoCacatuas='Fêmea' />
+            <section id="segunda-apresentacao">
+                <CardCacatuas
+                    imagemCacatuas={Cacatua1}
+                    nomeCacatuas="Lily"
+                    sexoCacatuas="Fêmea"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua2}
-            nomeCacatuas='Joana'
-            sexoCacatuas='Fêmea' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua2}
+                    nomeCacatuas="Joana"
+                    sexoCacatuas="Fêmea"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua3}
-            nomeCacatuas='Cátia'
-            sexoCacatuas='Fêmea' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua3}
+                    nomeCacatuas="Cátia"
+                    sexoCacatuas="Fêmea"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua4}
-            nomeCacatuas='Cíntia'
-            sexoCacatuas='Fêmea' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua4}
+                    nomeCacatuas="Cíntia"
+                    sexoCacatuas="Fêmea"
+                />
 
-            {/* === Separação === */}
+                {/* === Separação === */}
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua5}
-            nomeCacatuas='Atlas'
-            sexoCacatuas='Macho' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua5}
+                    nomeCacatuas="Atlas"
+                    sexoCacatuas="Macho"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua6}
-            nomeCacatuas='Péricles'
-            sexoCacatuas='Macho' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua6}
+                    nomeCacatuas="Péricles"
+                    sexoCacatuas="Macho"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua7}
-            nomeCacatuas='Teco'
-            sexoCacatuas='Macho' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua7}
+                    nomeCacatuas="Teco"
+                    sexoCacatuas="Macho"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua8}
-            nomeCacatuas='Pedro'
-            sexoCacatuas='Macho' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua8}
+                    nomeCacatuas="Pedro"
+                    sexoCacatuas="Macho"
+                />
 
-            {/* === Separação === */}
+                {/* === Separação === */}
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua9}
-            nomeCacatuas='Íris'
-            sexoCacatuas='Fêmea' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua9}
+                    nomeCacatuas="Íris"
+                    sexoCacatuas="Fêmea"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua10}
-            nomeCacatuas='Flor'
-            sexoCacatuas='Fêmea' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua10}
+                    nomeCacatuas="Flor"
+                    sexoCacatuas="Fêmea"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua11}
-            nomeCacatuas='Luna'
-            sexoCacatuas='Fêmea' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua11}
+                    nomeCacatuas="Luna"
+                    sexoCacatuas="Fêmea"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua12}
-            nomeCacatuas='Gigi'
-            sexoCacatuas='Fêmea' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua12}
+                    nomeCacatuas="Gigi"
+                    sexoCacatuas="Fêmea"
+                />
 
-            {/* === Separação === */}
+                {/* === Separação === */}
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua13}
-            nomeCacatuas='Zeus'
-            sexoCacatuas='Macho' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua13}
+                    nomeCacatuas="Zeus"
+                    sexoCacatuas="Macho"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua14}
-            nomeCacatuas='Tinoco'
-            sexoCacatuas='Macho' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua14}
+                    nomeCacatuas="Tinoco"
+                    sexoCacatuas="Macho"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua15}
-            nomeCacatuas='Apollo'
-            sexoCacatuas='Macho' />
+                <CardCacatuas
+                    imagemCacatuas={Cacatua15}
+                    nomeCacatuas="Apollo"
+                    sexoCacatuas="Macho"
+                />
 
-            <CardCacatuas
-            imagemCacatuas={Cacatua16}
-            nomeCacatuas='Zeca'
-            sexoCacatuas='Macho' />
-        </section>
+                <CardCacatuas
+                    imagemCacatuas={Cacatua16}
+                    nomeCacatuas="Zeca"
+                    sexoCacatuas="Macho"
+                />
+            </section>
 
-        <Link to='/contato' id='botao-adquirir'>
-          Quero adquirir uma
-        </Link>
-    </>
-  );
+            <Link to="/contato" id="botao-adquirir">
+                Quero adquirir uma
+            </Link>
+        </>
+    );
 }

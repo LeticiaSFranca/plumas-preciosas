@@ -1,4 +1,4 @@
-.card-cacatuas{
+.card-cacatuas {
     margin: 4vh auto 0 auto;
     width: 20vw;
     text-align: left;
@@ -10,7 +10,7 @@
     background: transparent;
 }
 
-.card-cacatuas div{
+.card-cacatuas div {
     background: transparent;
     z-index: 1;
     margin-top: -20vh;
@@ -30,7 +30,7 @@
     font-weight: bolder;
 }
 
-.card-cacatuas span{
+.card-cacatuas span {
     font-size: 17px;
     width: 100%;
     color: #ffffffcf;
@@ -42,14 +42,14 @@
     transition: ease 0.2s;
 }
 
-.card-cacatuas img{
+.card-cacatuas img {
     width: 15vw;
     object-fit: cover;
     padding-bottom: 2vh;
 }
 
-@media (max-width: 1080px){
-    .card-cacatuas{
+@media (max-width: 1080px) {
+    .card-cacatuas {
         margin: 2vh auto 2vh auto;
         display: flex;
         align-items: center;
@@ -59,18 +59,18 @@
         font-size: 13px;
     }
 
-    .card-cacatuas img{
+    .card-cacatuas img {
         width: 100%;
     }
 
-    .card-cacatuas hr{
+    .card-cacatuas hr {
         margin-left: 11vw;
         margin-right: 11vw;
         margin-top: -0.5vh;
         margin-bottom: 1vh;
     }
 
-    .card-cacatuas div{
+    .card-cacatuas div {
         margin-top: -10vh;
         text-align: center;
         padding: 0;
@@ -78,7 +78,7 @@
 }
 
 @media (max-width: 620px) {
-    .card-cacatuas{
+    .card-cacatuas {
         width: 30vw;
     }
 }

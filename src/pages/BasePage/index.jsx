@@ -7,7 +7,7 @@ import React from 'react';
 function BasePage() {
     return (
         <main>
-            <Header/>
+            <Header />
             <Container>
                 <Outlet />
             </Container>
