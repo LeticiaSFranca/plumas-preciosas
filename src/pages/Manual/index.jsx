@@ -12,7 +12,7 @@ export function Manual() {
 
     return (
         <>
-            <section id="primeira-apresentacao">
+            <section id="primeira-apresentacao-manual">
                 <img
                     src={CacatuasManual}
                     alt="Cacatua"

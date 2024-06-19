@@ -2,7 +2,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 80px;
+    height: 70px;
     padding: 0 2rem;
     background-color: transparent;
     color: var(--cor-branca);
@@ -54,12 +54,6 @@ header div,
 nav {
     display: flex;
     align-items: center;
-}
-
-@media only screen and (max-width: 1080px){
-    header{
-        background-color: var(--cor-secundaria);
-    }
 }
 
 @media only screen and (max-width: 1024px) {
