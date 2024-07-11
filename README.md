@@ -6,7 +6,7 @@ A principal função desse projeto é simular um criatório de Cacatuas. Dessa f
 
 ## 💻 Tecnologias usadas
 * [React.js](https://pt-br.react.dev/blog/2023/03/16/introducing-react-dev): usado para criar interfaces de usuário em páginas da Web
-* [JavaScript](https://www.typescriptlang.org/pt/docs/): linguagem de programação usada como base do projeto, a fim de torná-lo dinâmico
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript): linguagem de programação usada como base do projeto, a fim de torná-lo dinâmico
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS): usado para a estilização de página, animação e capacidade de resposta
 
 ## 📁 Acesso ao projeto
