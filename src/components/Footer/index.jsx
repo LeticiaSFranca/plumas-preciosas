@@ -6,11 +6,11 @@ export function Footer() {
             <p>
                 Desenvolvido por{' '}
                 <a
-                    href="https://leticiafranca.com.br"
+                    href="https://spacefordevelopment.vercel.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Letícia França
+                    Space For Development
                 </a>{' '}
                 <br />
                 Projeto de uma Unidade Curricular da Faculdade
